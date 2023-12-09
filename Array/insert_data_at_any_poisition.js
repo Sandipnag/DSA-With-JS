@@ -1,7 +1,8 @@
-/* Insert a number inside of an array at any poistion. */
+/* Insert a number inside of an array at any poistion. 
+We can do this in javascript with the help of splice method. But we need the logic with out using slice method or any kind of in build javascript methods.  */
 
 
-let arr = [1,2,3,4];
+let arr = [19,59,98,49];
 let inserting_position = 2;
 let number_to_insert =50;
 let inserting_position_index = inserting_position - 1;
